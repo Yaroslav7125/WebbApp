@@ -208,6 +208,6 @@ koa
     .use(koaBody())
     .use(router.routes())
     .use(router.allowedMethods());
-koa.listen(process.env.PORT || 3000);
-console.log("listen on port: " + (process.env.PORT || 3000));
+koa.listen(process.env.PORT || 3001);
+console.log("listen on port: " + (process.env.PORT || 3001));
 //# sourceMappingURL=app.js.map

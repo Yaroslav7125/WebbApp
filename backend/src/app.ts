@@ -100,7 +100,7 @@ koa
     .use(router.routes())
     .use(router.allowedMethods());
 
-koa.listen(process.env.PORT || 3000);
+koa.listen(process.env.PORT || 3001);
 // eslint-disable-next-line no-console
-console.log(`listen on port: ${process.env.PORT || 3000}`);
+console.log(`listen on port: ${process.env.PORT || 3001}`);
 
